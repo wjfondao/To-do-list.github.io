@@ -1,10 +1,12 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import AddTask from "./components/AddTask";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div className="App font-mono">
+      <Header>To-do List</Header>
+      <AddTask>Add</AddTask>
     </div>
   );
 }
